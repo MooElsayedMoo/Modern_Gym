@@ -1,0 +1,165 @@
+.courses {
+  overflow: hidden;
+  background: #320101;
+  margin-top: 55px;
+}
+
+.courses h5 {
+  text-align: center;
+  color: sandybrown;
+  margin-top: 20px;
+}
+
+.courses h4 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.courses .text {
+  overflow: hidden;
+  border: 1px solid white;
+  margin-bottom: 20px;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.courses .text img {
+  width: 100%;
+}
+
+.courses .text .par {
+  padding: 10px;
+}
+
+.courses .text .par span {
+  color: gainsboro;
+}
+
+.courses .text .par span i {
+  color: gold;
+}
+
+.courses .text .par p {
+  color: white;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.courses .text .par button {
+  border: none;
+  padding: 10px 25px;
+  background-color: orangered;
+  border-radius: 5px;
+  color: white;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.courses .text .par button:hover {
+  background-color: saddlebrown;
+}
+
+.courses .text:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.see-courses {
+  overflow: hidden;
+  background: #451111;
+}
+
+.see-courses h4 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.see-courses .text {
+  overflow: hidden;
+  border: 1px solid white;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.see-courses .text .image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: 10px;
+}
+
+.see-courses .text .image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.see-courses .text .par {
+  padding: 10px;
+}
+
+.see-courses .text .par span {
+  color: gainsboro;
+}
+
+.see-courses .text .par span i {
+  color: gold;
+}
+
+.see-courses .text .par p {
+  color: white;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.see-courses .text .par button {
+  border: none;
+  padding: 10px 25px;
+  background-color: orangered;
+  border-radius: 5px;
+  color: white;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.see-courses .text .par button:hover {
+  background-color: saddlebrown;
+}
+
+.see-courses .text:hover {
+  background-color: black;
+}
+
+@media screen and (max-width: 400px) {
+  .see-courses .text .par p {
+    font-size: 18px;
+  }
+}
+
+#mak {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+/*# sourceMappingURL=courses.component.css.map */

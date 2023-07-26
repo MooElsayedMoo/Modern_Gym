@@ -1,0 +1,37 @@
+.navbar{
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: dimgray;
+    z-index: 999;
+    ul.navbar-nav{
+        float: right;
+        margin-left: auto;
+        li{
+            margin-right: 25px;
+            a{
+                color: white;
+                transition: 0.5s all;
+            }
+            a:hover{
+                color: gold;
+            }
+        }
+    }
+}
+/*-----------------------start of public classes----------*/
+.container {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+    ul {
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+      }
+      
+  }
+  
+  
+  /*-----------------------end of public classes----------*/

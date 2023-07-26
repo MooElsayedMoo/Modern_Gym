@@ -1,0 +1,651 @@
+.home {
+  background-image: url(../../assets/images/home-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home .image {
+  overflow: hidden;
+  margin-top: 100px;
+}
+
+.home .image img {
+  width: 100%;
+  height: 30rem;
+}
+
+.home .text {
+  overflow: hidden;
+  margin-top: 180px;
+}
+
+.home .text h4 {
+  color: sandybrown;
+}
+
+.home .text p {
+  font-size: 30px;
+  color: white;
+  font-weight: 600;
+}
+
+.home .text button {
+  border: none;
+  padding: 10px 25px;
+  background-color: orangered;
+  border-radius: 5px;
+  color: white;
+  margin-bottom: 15px;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.home .text button:hover {
+  background-color: saddlebrown;
+}
+
+@media screen and (max-width: 400px) {
+  .home {
+    overflow: hidden;
+  }
+  .home .text {
+    margin-top: 0px;
+  }
+  .home .text p {
+    font-size: 25px;
+  }
+  .home .image {
+    overflow: hidden;
+  }
+  .home .image img {
+    height: 20rem;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 900px) {
+  .home {
+    overflow: hidden;
+  }
+  .home .text {
+    margin-top: 0px;
+  }
+  .home .image {
+    overflow: hidden;
+  }
+  .home .image img {
+    height: 30rem;
+  }
+}
+
+.about {
+  overflow: hidden;
+  background: #180101;
+}
+
+.about .text {
+  margin-top: 50px;
+}
+
+.about .text h5 {
+  color: sandybrown;
+}
+
+.about .text h3 {
+  color: white;
+  font-size: 30px;
+}
+
+.about .text p {
+  color: gainsboro;
+}
+
+.about .text ul {
+  margin: 0px;
+}
+
+.about .text ul li {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.about .text ul li span {
+  color: sandybrown;
+}
+
+.about .text ul li span i {
+  padding-right: 15px;
+}
+
+.about .image {
+  margin-top: 30px;
+}
+
+.about .image img {
+  width: 100%;
+  height: 30rem;
+}
+
+@media screen and (max-width: 400px) {
+  .about {
+    overflow: hidden;
+  }
+  .about .text h3 {
+    font-size: 25px;
+  }
+  .about .text p {
+    font-size: 14px;
+  }
+  .about .image {
+    overflow: hidden;
+  }
+  .about .image img {
+    height: 21rem;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 900px) {
+  .about {
+    overflow: hidden;
+  }
+  .about .image {
+    overflow: hidden;
+  }
+  .about .image img {
+    height: 30rem;
+  }
+}
+
+.counter {
+  background-image: url(../../assets/images/counter-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.counter h2 {
+  color: sandybrown;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.counter p {
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.courses {
+  overflow: hidden;
+  background: #320101;
+}
+
+.courses h5 {
+  text-align: center;
+  color: sandybrown;
+  margin-top: 20px;
+}
+
+.courses h4 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.courses .text {
+  overflow: hidden;
+  border: 1px solid white;
+  margin-bottom: 20px;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.courses .text img {
+  width: 100%;
+}
+
+.courses .text .par {
+  padding: 10px;
+}
+
+.courses .text .par span {
+  color: gainsboro;
+}
+
+.courses .text .par span i {
+  color: gold;
+}
+
+.courses .text .par p {
+  color: white;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.courses .text .par button {
+  border: none;
+  padding: 10px 25px;
+  background-color: orangered;
+  border-radius: 5px;
+  color: white;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.courses .text .par button:hover {
+  background-color: saddlebrown;
+}
+
+.courses .text:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+@media screen and (max-width: 400px) {
+  .courses {
+    overflow: hidden;
+  }
+  .courses .text {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 900px) {
+  .courses {
+    overflow: hidden;
+  }
+  .courses .text {
+    margin-bottom: 30px;
+  }
+}
+
+.plan {
+  overflow: hidden;
+  background: #320101;
+}
+
+.plan h5 {
+  text-align: center;
+  color: sandybrown;
+  margin-top: 20px;
+}
+
+.plan h4 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.plan .text {
+  border: 1px solid white;
+  margin-bottom: 10px;
+  padding: 30px;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.plan .text h6 {
+  color: gainsboro;
+  text-align: center;
+}
+
+.plan .text p {
+  color: gainsboro;
+  text-align: center;
+}
+
+.plan .text p span {
+  color: white;
+  font-size: 25px;
+}
+
+.plan .text button {
+  border: none;
+  padding: 10px 25px;
+  background-color: orangered;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.plan .text button:hover {
+  background-color: saddlebrown;
+}
+
+.plan .text ul {
+  margin: 0px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.plan .text ul li {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.plan .text ul li span {
+  color: sandybrown;
+}
+
+.plan .text ul li span i {
+  padding-right: 15px;
+}
+
+.plan .text:hover {
+  background-color: black;
+}
+
+@media screen and (max-width: 400px) {
+  .plan {
+    overflow: hidden;
+  }
+  .plan .text {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 900px) {
+  .plan {
+    overflow: hidden;
+  }
+  .plan .text {
+    margin-bottom: 30px;
+  }
+}
+
+.price {
+  overflow: hidden;
+  background: #320101;
+}
+
+.price .image {
+  margin-top: 30px;
+}
+
+.price .image img {
+  width: 100%;
+}
+
+.price .text {
+  margin-top: 150px;
+}
+
+.price .text h5 {
+  color: sandybrown;
+}
+
+.price .text h4 {
+  color: white;
+}
+
+.price .text p {
+  color: gainsboro;
+}
+
+.price .text button {
+  border: none;
+  padding: 10px 25px;
+  background-color: orangered;
+  border-radius: 5px;
+  color: white;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.price .text button:hover {
+  background-color: saddlebrown;
+}
+
+@media screen and (max-width: 400px) {
+  .price {
+    overflow: hidden;
+  }
+  .price .text {
+    margin-top: 0px;
+  }
+  .price .text h4 {
+    font-size: 20px;
+  }
+  .price .text p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 900px) {
+  .price {
+    overflow: hidden;
+  }
+  .price .text {
+    margin-top: 0px;
+  }
+}
+
+.team {
+  background: #320101;
+}
+
+.team h5 {
+  text-align: center;
+  color: sandybrown;
+  margin-top: 20px;
+}
+
+.team h4 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.team .text-one {
+  background-image: url(../../assets/images/team-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  margin-bottom: 20px;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.team .text-one:hover {
+  -webkit-filter: brightness(0.5);
+          filter: brightness(0.5);
+}
+
+.team .text-two {
+  background-image: url(../../assets/images/team-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  margin-bottom: 20px;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.team .text-two:hover {
+  -webkit-filter: brightness(0.5);
+          filter: brightness(0.5);
+}
+
+.team .text-three {
+  background-image: url(../../assets/images/team-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  margin-bottom: 20px;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.team .text-three:hover {
+  -webkit-filter: brightness(0.5);
+          filter: brightness(0.5);
+}
+
+.team .text-iteam {
+  position: relative;
+  top: 93.5%;
+  display: none;
+}
+
+.team .text-iteam p {
+  margin: 0px;
+}
+
+.team .text-iteam p span {
+  background-color: white;
+  padding: 10px;
+}
+
+.team .text-iteam p span i {
+  color: black;
+  margin-right: 15px;
+}
+
+@media screen and (max-width: 400px) {
+  .team {
+    overflow: hidden;
+  }
+  .team .text-one, .team .text-two, .team .text-threee {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 900px) {
+  .team {
+    overflow: hidden;
+  }
+  .team .text-one, .team .text-two, .team .text-threee {
+    margin-bottom: 30px;
+  }
+}
+
+.blog {
+  background: #320101;
+}
+
+.blog h5 {
+  text-align: center;
+  color: sandybrown;
+  margin-top: 20px;
+}
+
+.blog h4 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.blog .text {
+  margin-bottom: 15px;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.blog .text .image {
+  margin: 0px;
+}
+
+.blog .text .image img {
+  width: 100%;
+}
+
+.blog .text .cont {
+  margin-top: 15px;
+}
+
+.blog .text .cont p {
+  color: white;
+  font-size: 22px;
+}
+
+.blog .text .cont button {
+  border: none;
+  padding: 10px 25px;
+  background-color: orangered;
+  border-radius: 5px;
+  color: white;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.blog .text .cont button:hover {
+  background-color: saddlebrown;
+}
+
+.blog .text:hover img {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.blog .wee {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.blog .wee hr {
+  background-color: gainsboro;
+}
+
+.blog .wee h4 {
+  color: white;
+}
+
+.blog .wee h4 em {
+  color: gold;
+}
+
+@media screen and (max-width: 400px) {
+  .blog {
+    overflow: hidden;
+  }
+  .blog .text {
+    margin-bottom: 30px;
+  }
+  .blog .wee {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 900px) {
+  .blog {
+    overflow: hidden;
+  }
+  .blog .text {
+    margin-bottom: 30px;
+  }
+  .blog .wee {
+    margin-top: 0px;
+  }
+}
+
+#mak {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+/*-----------------------start of public classes----------*/
+.container {
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*-----------------------end of public classes----------*/
+/*# sourceMappingURL=home.component.css.map */

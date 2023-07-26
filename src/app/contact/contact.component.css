@@ -1,0 +1,100 @@
+.contact {
+  margin-top: 30px;
+  background: #320101;
+}
+
+.contact h3 {
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
+
+.see-contact {
+  overflow: hidden;
+  background: #320101;
+}
+
+.see-contact .text {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.see-contact .text ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.see-contact .text ul li span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.see-contact .text ul li span i {
+  color: gold;
+  font-size: 30px;
+}
+
+.see-contact .text ul li .go {
+  margin-right: auto;
+  margin-left: 40px;
+}
+
+.see-contact .text ul li .go h4 {
+  color: aqua;
+}
+
+.see-contact .text ul li .go p {
+  color: gainsboro;
+  font-size: 20px;
+}
+
+.see-contact .write {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.see-contact .write input {
+  height: 45px;
+  width: 45%;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+.see-contact .write textarea {
+  width: 100%;
+}
+
+#mak {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+/*-----------------------start of public classes----------*/
+.container {
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.container ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*-----------------------end of public classes----------*/
+/*# sourceMappingURL=contact.component.css.map */

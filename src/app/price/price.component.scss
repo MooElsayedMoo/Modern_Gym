@@ -1,0 +1,137 @@
+.price{
+    overflow: hidden;
+    background: #320101;
+    margin-top: 50px;
+    padding: 20px;
+    img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    h4{
+        text-align: center;
+        margin-bottom: 30px;
+        color: white;
+    }
+    .text{
+        border: 1px solid white;
+        margin-bottom: 15px;
+        padding: 30px;
+        transition: 0.5s all;
+        h6{
+            color: gainsboro;
+            text-align: center;
+        }
+        p{
+            color: gainsboro;
+            text-align: center;
+            span{
+                color: white;
+                font-size: 25px;
+            }
+        }
+        button{
+            border: none;
+            padding: 10px 25px;
+            background-color: orangered;
+            border-radius: 5px;
+            color: white;
+            text-align: center;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            transition: 0.5s all;
+        }
+        button:hover{
+            background-color: saddlebrown;
+        }
+        ul{
+            margin: 0px;
+            text-align: center;
+            margin-top: 20px;
+            li{
+                color: white;
+                margin-bottom: 10px;
+                span{
+                    color: sandybrown;
+                    i{
+                        padding-right: 15px;
+                    }
+                }
+            }
+        }
+    }
+    .text:hover{
+        background-color: black;
+    }
+    .wee{
+        overflow: hidden;
+        padding: 20px;
+        background: black;
+        text-align: center;
+        border-radius: 8px;
+        position: relative;
+        margin-bottom: 15px;
+        overflow: hidden;
+        color: white;
+        h3{
+            padding: 15px;
+            font-size: 18px;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+        h5{
+            font-size: 42px;
+            font-weight: 500;
+            margin-bottom: 20px;
+            sup{
+                font-size: 20px;
+                top: -15px;
+                left: -3px;
+            }
+            span{
+                font-size: 42px;
+                font-weight: 500;
+                margin-bottom: 20px;
+            }
+        }
+        ul{
+            text-align: center;
+            line-height: 20px;
+            font-size: 14px;
+            li{
+                padding-bottom: 16px;
+            }
+        }
+        button{
+            border: none;
+            padding: 10px 25px;
+            background-color: orangered;
+            border-radius: 5px;
+            color: white;
+            text-align: center;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            transition: 0.5s all;
+        }
+        button:hover{
+            background-color: saddlebrown;
+        }
+    }
+}
+
+#mak{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}

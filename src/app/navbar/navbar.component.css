@@ -1,0 +1,43 @@
+.navbar {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background: dimgray;
+  z-index: 999;
+}
+
+.navbar ul.navbar-nav {
+  float: right;
+  margin-left: auto;
+}
+
+.navbar ul.navbar-nav li {
+  margin-right: 25px;
+}
+
+.navbar ul.navbar-nav li a {
+  color: white;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.navbar ul.navbar-nav li a:hover {
+  color: gold;
+}
+
+/*-----------------------start of public classes----------*/
+.container {
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.container ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*-----------------------end of public classes----------*/
+/*# sourceMappingURL=navbar.component.css.map */
